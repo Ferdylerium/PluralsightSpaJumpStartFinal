@@ -9,8 +9,6 @@
 
     var remoteServiceName = 'breeze/Breeze';
 
-    var appTitle = 'CCJS';
-
     var routes = [{
         url: 'sessions',
         moduleId: 'viewmodels/sessions',
@@ -43,7 +41,6 @@
     var startModule = 'sessions';
 
     return {
-        appTitle: appTitle,
         debugEnabled: ko.observable(true),
         imageSettings: imageSettings,
         remoteServiceName: remoteServiceName,
